@@ -1,0 +1,25 @@
+{
+  "name": "@theoryofnekomata/chroma",
+  "version": "0.0.0",
+  "description": "Converter between schemata.",
+  "main": "dist/index.cjs",
+  "repository": "https://github.com/Temoto-kun/chroma.git",
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^3.0.0",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "fast-check": "^1.22.1",
+    "jest": "^25.1.0",
+    "rollup": "^1.31.0",
+    "ts-jest": "^25.1.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  }
+}
